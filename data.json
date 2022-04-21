@@ -1,0 +1,556 @@
+{
+    "planning": {
+        "curricula": [{
+            "cohort": "2022-2023",
+            "scedule": [{
+                "id": 1,
+                "order": 1,
+                "typeId": 1,
+                "weeks": [35, 36],
+                "year": 2022,
+                "projectId": 1,
+                "note": "Introductie en kennismaking"
+            }, {
+                "id": 2,
+                "order": 2,
+                "typeId": 1,
+                "weeks": [37, 38, 39],
+                "year": 2022,
+                "projectId": 2,
+                "note": "Project 2"
+            }, {
+                "id": 3,
+                "order": 3,
+                "typeId": 2,
+                "weeks": [40],
+                "year": 2022,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 4,
+                "order": 4,
+                "typeId": 1,
+                "weekNumbers": [41, 42],
+                "year": 2022,
+                "projectId": 3,
+                "note": "Project 3"
+            }, {
+                "id": 5,
+                "order": 5,
+                "typeId": 3,
+                "weekNumbers": [43],
+                "year": 2022,
+                "projectId": 0,
+                "note": "Herfst vakantie"
+            }, {
+                "id": 6,
+                "order": 6,
+                "typeId": 1,
+                "weekNumbers": [44, 45, 46, 47],
+                "year": 2022,
+                "projectId": 4,
+                "note": "Project 4"
+            }, {
+                "id": 7,
+                "order": 7,
+                "typeId": 2,
+                "weekNumbers": [48],
+                "year": 2022,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 8,
+                "order": 8,
+                "typeId": 1,
+                "weekDuration": 3,
+                "weekNumbers": [49, 50, 51],
+                "year": 2022,
+                "projectId": 5,
+                "note": "Project 5"
+            }, {
+                "id": 9,
+                "order": 9,
+                "typeId": 3,
+                "weekDuration": 3,
+                "weekNumbers": [52, 1],
+                "year": 2022,
+                "projectId": 0,
+                "note": "Kerstvakantie"
+            }, {
+                "id": 10,
+                "order": 10,
+                "typeId": 1,
+                "weekNumbers": [2, 3, 4],
+                "year": 2023,
+                "projectId": 6,
+                "note": "Project 6"
+            }, {
+                "id": 11,
+                "order": 11,
+                "typeId": 2,
+                "weekNumbers": [5],
+                "year": 2023,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 12,
+                "order": 12,
+                "typeId": 1,
+                "weekNumbers": [6, 7, 8],
+                "year": 2023,
+                "projectId": 7,
+                "note": "Project 7"
+            }, {
+                "id": 13,
+                "order": 13,
+                "typeId": 3,
+                "weekNumbers": [9],
+                "year": 2023,
+                "projectId": 0,
+                "note": "Voorjaarsvakantie"
+            }, {
+                "id": 14,
+                "order": 14,
+                "typeId": 1,
+                "weekNumbers": [10,11,12],
+                "year": 2023,
+                "projectId": 8,
+                "note": "Project 8"
+            }, {
+                "id": 15,
+                "order": 15,
+                "typeId": 2,
+                "weekDuration": 3,
+                "weekNumbers": [13],
+                "year": 2023,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 16,
+                "order": 16,
+                "typeId": 1,
+                "weekNumbers": [14, 15],
+                "year": 2023,
+                "projectId": 9,
+                "note": "Project 9"
+            }, {
+                "id": 17,
+                "order": 17,
+                "typeId": 1,
+                "weekNumbers": [16, 17],
+                "year": 2023,
+                "projectId": 10,
+                "note": "Project 10"
+            }, {
+                "id": 18,
+                "order": 18,
+                "typeId": 3,
+                "weekDuration": 3,
+                "weekNumbers": [18],
+                "year": 2023,
+                "projectId": 0,
+                "note": "Mei vakantie"
+            }, {
+                "id": 19,
+                "order": 19,
+                "typeId": 1,
+                "weekDuration": 3,
+                "weekNumbers": [19, 20, 21],
+                "year": 2023,
+                "projectId": 11,
+                "note": "Project 11"
+            }, {
+                "id": 20,
+                "order": 20,
+                "typeId": 1,
+                "weekNumbers": [22, 23, 24, 25],
+                "year": 2023,
+                "projectId": 12,
+                "note": "Project 12"
+            } ]
+        }],
+        "types": [{
+            "id": 1,
+            "name": "Project"
+        }, {
+            "id": 2,
+            "name": "Intermediate"
+        }, {
+            "id": 3,
+            "name": "Holliday"
+        }, {
+            "id": 4,
+            "name": "Excursion"
+        }, {
+            "id": 5,
+            "name": "Internship"
+        }, {
+            "id": 6,
+            "name": "Peer teaching and preparation for exams"
+        }, {
+            "id": 7,
+            "name": "Examination"
+        }]
+    },
+    "content": {
+        "projects": [{
+            "id": 1,
+            "order": 1,
+            "title": "",
+            "discription": "",
+            "note": "",
+            "workprocesIds": [],
+            "properties": {
+                "phaseIds": [1],
+                "compositionIds": [1],
+                "clientIds": [1],
+                "technologyIds": [{
+                    "id": 1,
+                    "levelIds": [1, 2]
+                }],
+                "packageManagerIds": [1],
+                "frameworksIds": [1],
+                "libraryIds": [1],
+                "hostingIds": [1]
+            }
+        }],
+        "properties": {
+            "phases": [{
+                "id": 1,
+                "name": "Introduction"
+            }, {
+                "id": 2,
+                "name": "Essentials"
+            }, {
+                "id": 3,
+                "name": "Basics"
+            }, {
+                "id": 4,
+                "name": "Discover"
+            }],
+            "composition": [{
+                "id": 1,
+                "name": "Individual"
+            }, {
+                "id": 2,
+                "name": "Groups formed by students"
+            }, {
+                "id": 3,
+                "name": "Groups formed by teachers"
+            }],
+            "clients": [{
+                "id": 1,
+                "name": "Social Brothers"
+            }, {
+                "id": 2,
+                "name": "Vrijwilligershuis Nieuwegein"
+            }],
+            "technologies": [{
+                "id": 1,
+                "name": "HTML",
+                "levels": [{
+                    "id": 1,
+                    "name": "HTML essentials",
+                    "note": "structure and tags (html, head, body, div, etc.)",
+                    "levelIds": [1]
+                }, {
+                    "id": 2,
+                    "name": "HTML basics",
+                    "note": "attributes (classes, id, events)",
+                    "levelIds": [1, 2]
+                }, {
+                    "id": 2,
+                    "name": "HTML advanced",
+                    "note": "HTML5, DOM, BOM, etc.",
+                    "levelIds": [1, 2, 3]
+                }]
+            }, {
+                "id": 2,
+                "name": "CSS",
+                "levels": [{
+                    "id": 1,
+                    "name": "CSS essentials",
+                    "note": "implementation and properties",
+                    "levelIds": [1]
+                }, {
+                    "id": 2,
+                    "name": "CSS basics",
+                    "note": "cascading, inheritance, etc.",
+                    "levelIds": [1, 2]
+                }, {
+                    "id": 3,
+                    "name": "CSS advanced",
+                    "note": "SASS, LESS, etc.",
+                    "levelIds": [2, 3]
+                }, {
+                    "id": 4,
+                    "name": "CSS libraries and frameworks",
+                    "note": "Bootstrap, Tailwind, Foundation, Bulma, etc..",
+                    "levelIds": [3, 4]
+                }]
+            }, {
+                "id": 3,
+                "name": "JavaScript",
+                "levels": [{
+                    "id": 1,
+                    "name": "JavaScript essentials",
+                    "note": "var/let/const, if, for",
+                    "levelIds": [1]
+                }, {
+                    "id": 2,
+                    "name": "JavaScript basics",
+                    "note": "function, array, object",
+                    "levelIds": [1, 2]
+                }, {
+                    "id": 3,
+                    "name": "JavaScript advanced",
+                    "note": "OOP, ES6",
+                    "levelIds": [2, 3]
+                }, {
+                    "id": 4,
+                    "name": "JavaScript libraries and frameworks",
+                    "note": "ReactJs, Angular, Vue, etc.",
+                    "levelIds": [3, 4]
+                }]
+            }, {
+                "id": 4,
+                "name": "PHP",
+                "levels": [{
+                    "id": 1,
+                    "name": "PHP essentials",
+                    "note": "syntax, variables, functions",
+                    "levelIds": [1]
+                }, {
+                    "id": 2,
+                    "name": "PHP basics",
+                    "note": "form handling, database",
+                    "levelIds": [1, 2]
+                }, {
+                    "id": 3,
+                    "name": "PHP advanced",
+                    "note": "OOP",
+                    "levelIds": [2, 3]
+                }, {
+                    "id": 4,
+                    "name": "PHP libraries and frameworks",
+                    "note": "Composer, Laravel",
+                    "levelIds": [3, 4]
+                }]
+            }],
+            "packageManagers": [{
+                "id": 1,
+                "name": "NPM"
+            }, {
+                "id": 2,
+                "name": "Composer"
+            }, {
+                "id": 3,
+                "name": "Pip"
+            }],
+            "frameworks": [{
+                "id": 1,
+                "name": "Laravel"
+            }, {
+                "id": 2,
+                "name": "Next.js"
+            }, {
+                "id": 3,
+                "name": "Nuxt.js"
+            }, {
+                "id": 4,
+                "name": "Angular"
+            }],
+            "librarys": [{
+                "id": 1,
+                "name": "Bootstrap",
+                "note": "CSS"
+            }, {
+                "id": 2,
+                "name": "Tailwind",
+                "note": "CSS"
+            }, {
+                "id": 3,
+                "name": "JQuery",
+                "note": "JS"
+            }, {
+                "id": 4,
+                "name": "P5.js",
+                "note": "JS"
+            }, {
+                "id": 5,
+                "name": "three.js",
+                "note": "JS"
+            }, {
+                "id": 6,
+                "name": "React",
+                "note": "JS"
+            }, {
+                "id": 6,
+                "name": "Vue",
+                "note": "JS"
+            }],
+            "hosting": [{
+                "id": 1,
+                "title": "local",
+                "discription": "XAMPP, MAMP, WAMP, LAMP, etc.",
+                "LevelIds": [1]
+            }, {
+                "id": 2,
+                "title": "external (traditional)",
+                "discription": "Gluweb, shared hosting, VPS, etc.",
+                "LevelIds": [2]
+            }, {
+                "id": 3,
+                "title": "Rasberry Pi (hardware)",
+                "discription": "Ubuntu, Enginx, SSH, config",
+                "LevelIds": [2]
+            }, {
+                "id": 4,
+                "title": "serverless (cloud)",
+                "discription": "AWS (Amazon Web Services), Azure, Firebase, Heroku, Netlify, etc.",
+                "LevelIds": [2, 3]
+            }]
+        }
+    },
+    "levels": [{
+        "id": 1,
+        "order": 1,
+        "title": "Elementary",
+        "discription": "Essential knowledge/skill.",
+        "note": "This is a essential requirement for students to progress in the program."
+    }, {
+        "id": 2,
+        "order": 2,
+        "title": "Basic",
+        "discription": "Junior level knowledge/skill.",
+        "note": "This is the level that you need students to reach when they graduate."
+    }, {
+        "id": 3,
+        "order": 3,
+        "title": "Advanced",
+        "discription": "Medior level knowledge/skill.",
+        "note": "This is the level that you wish students to reach when they graduate."
+    }, {
+        "id": 4,
+        "order": 4,
+        "title": "professional",
+        "discription": "Senior level knowledge/skill.",
+        "note": "No student will propably reach this level during their studies."
+    }],
+    "KD": [{
+            "coretasks": [{
+                "id": 1,
+                "order": 1,
+                "title": "K1",
+                "discription": "Realiseert software",
+                "workprocesIds": [1, 2, 3, 4, 5]
+            }, {
+                "id": 2,
+                "order": 2,
+                "title": "K2",
+                "discription": "Werkt in een ontwikkelteam",
+                "workprocesIds": [6, 7, 8]
+            }]
+        },
+        {
+            "workprocesses": [{
+                "id": 1,
+                "order": 1,
+                "title": "W1",
+                "discription": "Plant werkzaamheden en bewaakt de voortgang",
+                "competencyIds": [1, 2, 3, 4],
+                "note": "Plannen"
+
+            }, {
+                "id": 2,
+                "order": 2,
+                "title": "W2",
+                "discription": "Ontwerpt software",
+                "competencyIds": [5, 6, 7],
+                "note": "Ontwerpen"
+            }, {
+                "id": 3,
+                "order": 3,
+                "title": "W3",
+                "discription": "Realiseert (onderdelen van) software",
+                "competencyIds": [1, 5, 8, 7, 9],
+                "note": "Realiseren"
+            }, {
+                "id": 4,
+                "order": 4,
+                "title": "W4",
+                "discription": "Test software",
+                "competencyIds": [10, 5, 2, 7],
+                "note": "Testen"
+            }, {
+                "id": 5,
+                "order": 5,
+                "title": "W5",
+                "discription": "Doet verbetervoorstellen voor de software",
+                "competencyIds": [1, 2, 3, 5],
+                "note": "Onderhouden"
+            }, {
+                "id": 6,
+                "order": 1,
+                "title": "W1",
+                "discription": "Voert overleg",
+                "note": "Samenwerken",
+                "competencyIds": [1, 10, 7, 11]
+            }, {
+                "id": 7,
+                "order": 2,
+                "title": "W2",
+                "discription": "Presenteert het opgeleverde werk",
+                "note": "Presenteren",
+                "competencyIds": [12, 5]
+            }, {
+                "id": 8,
+                "order": 3,
+                "title": "W3",
+                "discription": "Reflecteert op het werk",
+                "note": "Reflecteren",
+                "competencyIds": [1, 11]
+            }]
+        },
+        {
+            "competencies": [{
+                "id": 1,
+                "name": "Samenwerken en overleggen"
+            }, {
+                "id": 2,
+                "name": "Analyseren"
+            }, {
+                "id": 3,
+                "name": "Plannen en organiseren"
+            }, {
+                "id": 4,
+                "name": "Onderzoeken"
+            }, {
+                "id": 5,
+                "name": "Vakdeskundigheid toepassen"
+            }, {
+                "id": 6,
+                "name": "Op de behoeften en verwachtingen van de \"klant\" richten"
+            }, {
+                "id": 7,
+                "name": "Instructies en procedures opvolgen"
+            }, {
+                "id": 8,
+                "name": "Kwaliteit leveren"
+            }, {
+                "id": 9,
+                "name": "Met druk en tegenslag omgaan"
+            }, {
+                "id": 10,
+                "name": "Formuleren en rapporteren"
+            }, {
+                "id": 11,
+                "name": "Leren"
+            }, {
+                "id": 12,
+                "name": "Presenteren"
+            }]
+        }
+
+    ]
+}
