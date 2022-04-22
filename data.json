@@ -1,13 +1,13 @@
 {
     "planning": {
         "curricula": [{
-            "cohort": "2022-2023",
+            "cohort": [2022,2023],
             "scedule": [{
                 "id": 1,
                 "order": 1,
                 "typeId": 1,
                 "weeks": [35, 36],
-                "year": 2022,
+                "year": 1,
                 "projectId": 1,
                 "note": "Introductie en kennismaking"
             }, {
@@ -15,7 +15,7 @@
                 "order": 2,
                 "typeId": 1,
                 "weeks": [37, 38, 39],
-                "year": 2022,
+                "year": 1,
                 "projectId": 2,
                 "note": "Project 2"
             }, {
@@ -23,7 +23,7 @@
                 "order": 3,
                 "typeId": 2,
                 "weeks": [40],
-                "year": 2022,
+                "year": 1,
                 "projectId": 0,
                 "note": "Tussenweek"
             }, {
@@ -31,7 +31,7 @@
                 "order": 4,
                 "typeId": 1,
                 "weeks": [41, 42],
-                "year": 2022,
+                "year": 1,
                 "projectId": 3,
                 "note": "Project 3"
             }, {
@@ -39,15 +39,15 @@
                 "order": 5,
                 "typeId": 3,
                 "weeks": [43],
-                "year": 2022,
+                "year": 1,
                 "projectId": 0,
-                "note": "Herfst vakantie"
+                "note": "Herfst&shy;vakantie"
             }, {
                 "id": 6,
                 "order": 6,
                 "typeId": 1,
                 "weeks": [44, 45, 46, 47],
-                "year": 2022,
+                "year": 1,
                 "projectId": 4,
                 "note": "Project 4"
             }, {
@@ -55,7 +55,7 @@
                 "order": 7,
                 "typeId": 2,
                 "weeks": [48],
-                "year": 2022,
+                "year": 1,
                 "projectId": 0,
                 "note": "Tussenweek"
             }, {
@@ -63,7 +63,7 @@
                 "order": 8,
                 "typeId": 1,
                 "weeks": [49, 50, 51],
-                "year": 2022,
+                "year": 1,
                 "projectId": 5,
                 "note": "Project 5"
             }, {
@@ -71,15 +71,15 @@
                 "order": 9,
                 "typeId": 3,
                 "weeks": [52, 1],
-                "year": 2022,
+                "year": 1,
                 "projectId": 0,
-                "note": "Kerstvakantie"
+                "note": "Kerst&shy;vakantie"
             }, {
                 "id": 10,
                 "order": 10,
                 "typeId": 1,
                 "weeks": [2, 3, 4],
-                "year": 2023,
+                "year": 1,
                 "projectId": 6,
                 "note": "Project 6"
             }, {
@@ -87,7 +87,7 @@
                 "order": 11,
                 "typeId": 2,
                 "weeks": [5],
-                "year": 2023,
+                "year": 1,
                 "projectId": 0,
                 "note": "Tussenweek"
             }, {
@@ -95,7 +95,7 @@
                 "order": 12,
                 "typeId": 1,
                 "weeks": [6, 7, 8],
-                "year": 2023,
+                "year": 1,
                 "projectId": 7,
                 "note": "Project 7"
             }, {
@@ -103,15 +103,15 @@
                 "order": 13,
                 "typeId": 3,
                 "weeks": [9],
-                "year": 2023,
+                "year": 1,
                 "projectId": 0,
-                "note": "Voorjaarsvakantie"
+                "note": "Voorjaars&shy;vakantie"
             }, {
                 "id": 14,
                 "order": 14,
                 "typeId": 1,
                 "weeks": [10,11,12],
-                "year": 2023,
+                "year": 1,
                 "projectId": 8,
                 "note": "Project 8"
             }, {
@@ -119,7 +119,7 @@
                 "order": 15,
                 "typeId": 2,
                 "weeks": [13],
-                "year": 2023,
+                "year": 1,
                 "projectId": 0,
                 "note": "Tussenweek"
             }, {
@@ -127,7 +127,7 @@
                 "order": 16,
                 "typeId": 1,
                 "weeks": [14, 15],
-                "year": 2023,
+                "year": 1,
                 "projectId": 9,
                 "note": "Project 9"
             }, {
@@ -135,7 +135,7 @@
                 "order": 17,
                 "typeId": 1,
                 "weeks": [16, 17],
-                "year": 2023,
+                "year": 1,
                 "projectId": 10,
                 "note": "Project 10"
             }, {
@@ -144,7 +144,7 @@
                 "typeId": 3,
                 "weekDuration": 3,
                 "weeks": [18],
-                "year": 2023,
+                "year": 1,
                 "projectId": 0,
                 "note": "Mei vakantie"
             }, {
@@ -152,7 +152,7 @@
                 "order": 19,
                 "typeId": 1,
                 "weeks": [19, 20, 21],
-                "year": 2023,
+                "year": 1,
                 "projectId": 11,
                 "note": "Project 11"
             }, {
@@ -160,10 +160,171 @@
                 "order": 20,
                 "typeId": 1,
                 "weeks": [22, 23, 24, 25],
-                "year": 2023,
+                "year": 1,
                 "projectId": 12,
                 "note": "Project 12"
-            } ]
+            },{
+                "id": 21,
+                "order": 21,
+                "typeId": 1,
+                "weeks": [35, 36],
+                "year": 2,
+                "projectId": 13,
+                "note": "Project 13"
+            }, {
+                "id": 22,
+                "order": 22,
+                "typeId": 1,
+                "weeks": [37, 38, 39],
+                "year": 2,
+                "projectId": 14,
+                "note": "Project 14"
+            }, {
+                "id": 23,
+                "order": 23,
+                "typeId": 2,
+                "weeks": [40],
+                "year": 2,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 24,
+                "order": 24,
+                "typeId": 1,
+                "weeks": [41, 42],
+                "year": 2,
+                "projectId": 15,
+                "note": "Project 15"
+            }, {
+                "id": 25,
+                "order": 25,
+                "typeId": 3,
+                "weeks": [43],
+                "year": 2,
+                "projectId": 0,
+                "note": "Herfst&shy;vakantie"
+            }, {
+                "id": 26,
+                "order": 26,
+                "typeId": 1,
+                "weeks": [44, 45, 46, 47],
+                "year": 2,
+                "projectId": 16,
+                "note": "Project 16"
+            }, {
+                "id": 27,
+                "order": 27,
+                "typeId": 2,
+                "weeks": [48],
+                "year": 2,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 28,
+                "order": 28,
+                "typeId": 1,
+                "weeks": [49, 50, 51],
+                "year": 2,
+                "projectId": 17,
+                "note": "Project 17"
+            }, {
+                "id": 29,
+                "order": 29,
+                "typeId": 3,
+                "weeks": [52, 1],
+                "year": 2,
+                "projectId": 0,
+                "note": "Kerst&shy;vakantie"
+            }, {
+                "id": 30,
+                "order": 10,
+                "typeId": 1,
+                "weeks": [2, 3, 4],
+                "year": 2,
+                "projectId": 18,
+                "note": "Project 18"
+            }, {
+                "id": 31,
+                "order": 31,
+                "typeId": 2,
+                "weeks": [5],
+                "year": 2,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 32,
+                "order": 32,
+                "typeId": 1,
+                "weeks": [6, 7, 8],
+                "year": 2,
+                "projectId": 19,
+                "note": "Project 19"
+            }, {
+                "id": 33,
+                "order": 33,
+                "typeId": 3,
+                "weeks": [9],
+                "year": 2,
+                "projectId": 0,
+                "note": "Voorjaars&shy;vakantie"
+            }, {
+                "id": 34,
+                "order": 34,
+                "typeId": 1,
+                "weeks": [10,11,12],
+                "year": 2,
+                "projectId": 20,
+                "note": "Project 20"
+            }, {
+                "id": 35,
+                "order": 35,
+                "typeId": 2,
+                "weeks": [13],
+                "year": 2,
+                "projectId": 0,
+                "note": "Tussenweek"
+            }, {
+                "id": 36,
+                "order": 36,
+                "typeId": 1,
+                "weeks": [14, 15],
+                "year": 2,
+                "projectId": 21,
+                "note": "Project 9"
+            }, {
+                "id": 37,
+                "order": 37,
+                "typeId": 1,
+                "weeks": [16, 17],
+                "year": 2,
+                "projectId": 22,
+                "note": "Project 10"
+            }, {
+                "id": 38,
+                "order": 38,
+                "typeId": 3,
+                "weekDuration": 3,
+                "weeks": [18],
+                "year": 2,
+                "projectId": 0,
+                "note": "Mei vakantie"
+            }, {
+                "id": 39,
+                "order": 39,
+                "typeId": 1,
+                "weeks": [19, 20, 21],
+                "year": 2,
+                "projectId": 23,
+                "note": "Project 11"
+            }, {
+                "id": 40,
+                "order": 40,
+                "typeId": 1,
+                "weeks": [22, 23, 24, 25],
+                "year": 2,
+                "projectId": 24,
+                "note": "Project 12"
+            }  ]
         }],
         "types": [{ 
             "id": 1,
