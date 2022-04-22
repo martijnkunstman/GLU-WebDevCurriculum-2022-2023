@@ -52,13 +52,22 @@ html, body{
     width: 100px;
 }
 .scedule-item-width2{
-    width: 150px;
-}
-.scedule-item-width3{
     width: 200px;
 }
+.scedule-item-width3{
+    width: 300px;
+}
 .scedule-item-width4{
-    width: 250px;
+    width: 400px;
+}
+
+.scedule-item-tech{
+    position:absolute;
+    top:5px;
+    right:5px;
+    width:10px;
+    height:10px;
+    background:rgba(0,0,0,0.5)
 }
 
 .scedule-item-type1{

@@ -1,7 +1,7 @@
 {
     "planning": {
         "curricula": [{
-            "cohort": [2022,2023],
+            "cohort": [2022, 2023],
             "scedule": [{
                 "id": 1,
                 "order": 1,
@@ -110,7 +110,7 @@
                 "id": 14,
                 "order": 14,
                 "typeId": 1,
-                "weeks": [10,11,12],
+                "weeks": [10, 11, 12],
                 "year": 1,
                 "projectId": 8,
                 "note": "Project 8"
@@ -163,7 +163,7 @@
                 "year": 1,
                 "projectId": 12,
                 "note": "Project 12"
-            },{
+            }, {
                 "id": 21,
                 "order": 21,
                 "typeId": 1,
@@ -271,7 +271,7 @@
                 "id": 34,
                 "order": 34,
                 "typeId": 1,
-                "weeks": [10,11,12],
+                "weeks": [10, 11, 12],
                 "year": 2,
                 "projectId": 20,
                 "note": "Project 20"
@@ -324,9 +324,9 @@
                 "year": 2,
                 "projectId": 24,
                 "note": "Project 12"
-            }  ]
+            }]
         }],
-        "types": [{ 
+        "types": [{
             "id": 1,
             "name": "Project"
         }, {
@@ -351,27 +351,441 @@
     },
     "content": {
         "projects": [{
-            "id": 1,
-            "order": 1,
-            "title": "",
-            "discription": "",
-            "note": "",
-            "workprocesIds": [],
-            "properties": {
-                "phaseIds": [1],
-                "compositionIds": [1],
-                "clientIds": [1],
-                "technologyIds": [{
-                    "id": 1,
-                    "levelIds": [1, 2]
-                }],
-                "packageManagerIds": [1],
-                "frameworksIds": [1],
-                "libraryIds": [1],
-                "hostingIds": [1]
+                "id": 1,
+                "order": 1,
+                "title": "Project 1",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 2,
+                "order": 2,
+                "title": "Project 2",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 3,
+                "order": 3,
+                "title": "Project 3",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 4,
+                "order": 4,
+                "title": "Project 4",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 5,
+                "order": 5,
+                "title": "Project 5",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
+            }, {
+                "id": 6,
+                "order": 6,
+                "title": "Project 6",
+                "discription": "",
+                "note": "",
+                "props": {
+                    "phaseIds": [1],
+                    "compositionIds": [1],
+                    "clientIds": [1],
+                    "technologyIds": [1],
+                    "packageManagerIds": [1],
+                    "frameworksIds": [1],
+                    "libraryIds": [1],
+                    "hostingIds": [1]
+                },
+                "workprocesIds": [1],
+                "teacherIds": [1]
             }
-        }],
-        "properties": {
+
+        ],
+        "props": {
             "phases": [{
                 "id": 1,
                 "name": "Introduction"
@@ -416,10 +830,10 @@
                     "note": "attributes (classes, id, events)",
                     "levelIds": [1, 2]
                 }, {
-                    "id": 2,
+                    "id": 3,
                     "name": "HTML advanced",
                     "note": "HTML5, DOM, BOM, etc.",
-                    "levelIds": [1, 2, 3]
+                    "levelIds": [2, 3]
                 }]
             }, {
                 "id": 2,
@@ -569,6 +983,21 @@
             }]
         }
     },
+    "teachers": [{
+        "id": 1,
+        "name": "Jan",
+        "inbetween": "van",
+        "surname": "Os",
+        "abr": "JOS",
+        "email": "jos@glu.nl"
+    }, {
+        "id": 2,
+        "name": "Martijn",
+        "inbetween": "",
+        "surname": "Kunstman",
+        "abr": "MKU",
+        "email": "mkunstman@glu.nl"
+    }],
     "levels": [{
         "id": 1,
         "order": 1,
