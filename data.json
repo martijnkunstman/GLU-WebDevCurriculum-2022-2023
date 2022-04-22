@@ -30,7 +30,7 @@
                 "id": 4,
                 "order": 4,
                 "typeId": 1,
-                "weekNumbers": [41, 42],
+                "weeks": [41, 42],
                 "year": 2022,
                 "projectId": 3,
                 "note": "Project 3"
@@ -38,7 +38,7 @@
                 "id": 5,
                 "order": 5,
                 "typeId": 3,
-                "weekNumbers": [43],
+                "weeks": [43],
                 "year": 2022,
                 "projectId": 0,
                 "note": "Herfst vakantie"
@@ -46,7 +46,7 @@
                 "id": 6,
                 "order": 6,
                 "typeId": 1,
-                "weekNumbers": [44, 45, 46, 47],
+                "weeks": [44, 45, 46, 47],
                 "year": 2022,
                 "projectId": 4,
                 "note": "Project 4"
@@ -54,7 +54,7 @@
                 "id": 7,
                 "order": 7,
                 "typeId": 2,
-                "weekNumbers": [48],
+                "weeks": [48],
                 "year": 2022,
                 "projectId": 0,
                 "note": "Tussenweek"
@@ -62,8 +62,7 @@
                 "id": 8,
                 "order": 8,
                 "typeId": 1,
-                "weekDuration": 3,
-                "weekNumbers": [49, 50, 51],
+                "weeks": [49, 50, 51],
                 "year": 2022,
                 "projectId": 5,
                 "note": "Project 5"
@@ -71,8 +70,7 @@
                 "id": 9,
                 "order": 9,
                 "typeId": 3,
-                "weekDuration": 3,
-                "weekNumbers": [52, 1],
+                "weeks": [52, 1],
                 "year": 2022,
                 "projectId": 0,
                 "note": "Kerstvakantie"
@@ -80,7 +78,7 @@
                 "id": 10,
                 "order": 10,
                 "typeId": 1,
-                "weekNumbers": [2, 3, 4],
+                "weeks": [2, 3, 4],
                 "year": 2023,
                 "projectId": 6,
                 "note": "Project 6"
@@ -88,7 +86,7 @@
                 "id": 11,
                 "order": 11,
                 "typeId": 2,
-                "weekNumbers": [5],
+                "weeks": [5],
                 "year": 2023,
                 "projectId": 0,
                 "note": "Tussenweek"
@@ -96,7 +94,7 @@
                 "id": 12,
                 "order": 12,
                 "typeId": 1,
-                "weekNumbers": [6, 7, 8],
+                "weeks": [6, 7, 8],
                 "year": 2023,
                 "projectId": 7,
                 "note": "Project 7"
@@ -104,7 +102,7 @@
                 "id": 13,
                 "order": 13,
                 "typeId": 3,
-                "weekNumbers": [9],
+                "weeks": [9],
                 "year": 2023,
                 "projectId": 0,
                 "note": "Voorjaarsvakantie"
@@ -112,7 +110,7 @@
                 "id": 14,
                 "order": 14,
                 "typeId": 1,
-                "weekNumbers": [10,11,12],
+                "weeks": [10,11,12],
                 "year": 2023,
                 "projectId": 8,
                 "note": "Project 8"
@@ -120,8 +118,7 @@
                 "id": 15,
                 "order": 15,
                 "typeId": 2,
-                "weekDuration": 3,
-                "weekNumbers": [13],
+                "weeks": [13],
                 "year": 2023,
                 "projectId": 0,
                 "note": "Tussenweek"
@@ -129,7 +126,7 @@
                 "id": 16,
                 "order": 16,
                 "typeId": 1,
-                "weekNumbers": [14, 15],
+                "weeks": [14, 15],
                 "year": 2023,
                 "projectId": 9,
                 "note": "Project 9"
@@ -137,7 +134,7 @@
                 "id": 17,
                 "order": 17,
                 "typeId": 1,
-                "weekNumbers": [16, 17],
+                "weeks": [16, 17],
                 "year": 2023,
                 "projectId": 10,
                 "note": "Project 10"
@@ -146,7 +143,7 @@
                 "order": 18,
                 "typeId": 3,
                 "weekDuration": 3,
-                "weekNumbers": [18],
+                "weeks": [18],
                 "year": 2023,
                 "projectId": 0,
                 "note": "Mei vakantie"
@@ -154,8 +151,7 @@
                 "id": 19,
                 "order": 19,
                 "typeId": 1,
-                "weekDuration": 3,
-                "weekNumbers": [19, 20, 21],
+                "weeks": [19, 20, 21],
                 "year": 2023,
                 "projectId": 11,
                 "note": "Project 11"
@@ -163,13 +159,13 @@
                 "id": 20,
                 "order": 20,
                 "typeId": 1,
-                "weekNumbers": [22, 23, 24, 25],
+                "weeks": [22, 23, 24, 25],
                 "year": 2023,
                 "projectId": 12,
                 "note": "Project 12"
             } ]
         }],
-        "types": [{
+        "types": [{ 
             "id": 1,
             "name": "Project"
         }, {
@@ -275,17 +271,17 @@
                 }, {
                     "id": 2,
                     "name": "CSS basics",
-                    "note": "cascading, inheritance, etc.",
+                    "note": "cascading, inheritance",
                     "levelIds": [1, 2]
                 }, {
                     "id": 3,
                     "name": "CSS advanced",
-                    "note": "SASS, LESS, etc.",
+                    "note": "SASS, LESS, SCSS",
                     "levelIds": [2, 3]
                 }, {
                     "id": 4,
                     "name": "CSS libraries and frameworks",
-                    "note": "Bootstrap, Tailwind, Foundation, Bulma, etc..",
+                    "note": "Bootstrap, Tailwind, Foundation",
                     "levelIds": [3, 4]
                 }]
             }, {
