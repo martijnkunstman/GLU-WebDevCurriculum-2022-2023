@@ -27,13 +27,12 @@ function createPlanningMap() {
         for (let j = start; j < end; j++) {
             let quarter = findQuarterByWeek((j % 52 + 1), schoolYear.quarters, i);
             let holiday = findHolidays((j % 52 + 1), schoolYear.holidays);
-            app.innerHTML += '<div id="scedule-item">|' + (j % 52 + 1) + '-' + quarter + '-'+holiday+'|</div>';
+            app.innerHTML += '<div class="scedule-item">|' + (j % 52 + 1) + '-' + quarter + '-'+holiday+'|</div>';
         }
     }
 }
 
 function findHolidays(week, holidays) {
-    console.log(holidays);
     for (let i = 0; i < holidays.length; i++) {
         for (let j = 0; j < holidays[i].weeks.length; j++) {
             if (week === holidays[i].weeks[j]) {
@@ -52,6 +51,5 @@ function findQuarterByWeek(week, quarters, year) {
     }
     return (2 + year * 4);
 }
-
 
 init();
