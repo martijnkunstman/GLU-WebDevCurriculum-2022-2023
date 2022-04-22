@@ -1,0 +1,88 @@
+{
+    "schoolYears": [{
+        "id": 1,
+        "years": [2022, 2023],
+        "quarters": [
+            [35, 44],
+            [45, 4],
+            [5, 15],
+            [16, 26]
+        ],
+        "holidays": [{
+            "name": "Herfst&shy;vakantie",
+            "weeks": [43]
+        }, {
+            "name": "Kerst&shy;vakantie",
+            "weeks": [52, 1]
+        }, {
+            "name": "Voorjaars&shy;vakantie",
+            "weeks": [9]
+        }, {
+            "name": "Mei&shy;vakantie",
+            "weeks": [18]
+        }]
+    }, {
+        "id": 2,
+        "years": [2023, 2024],
+        "quarters": [
+            [35, 44],
+            [45, 4],
+            [5, 15],
+            [16, 27]
+        ],
+        "holidays": [{
+            "name": "Herfst&shy;vakantie",
+            "weeks": [43]
+        }, {
+            "name": "Kerst&shy;vakantie",
+            "weeks": [52, 1]
+        }, {
+            "name": "Voorjaars&shy;vakantie",
+            "weeks": [9]
+        }, {
+            "name": "Mei&shy;vakantie",
+            "weeks": [18, 19]
+        }]
+    }, {
+        "id": 3,
+        "years": [2024, 2025],
+        "quarters": [
+            [35, 45],
+            [46, 5],
+            [6, 16],
+            [19, 28]
+        ],
+        "holidays": [{
+            "name": "Herfst&shy;vakantie",
+            "weeks": [44]
+        }, {
+            "name": "Kerst&shy;vakantie",
+            "weeks": [52, 1]
+        }, {
+            "name": "Voorjaars&shy;vakantie",
+            "weeks": [9]
+        }, {
+            "name": "Mei&shy;vakantie",
+            "weeks": [17, 18]
+        }]
+    }],
+    "types": [{
+        "id": 1,
+        "name": "Project"
+    }, {
+        "id": 2,
+        "name": "Intermediate"
+    }, {
+        "id": 3,
+        "name": "Internship"
+    }, {
+        "id": 4,
+        "name": "Pre-exams"
+    }, {
+        "id": 5,
+        "name": "Exams"
+    }, {
+        "id": 6,
+        "name": "Holiday"
+    }]
+}
