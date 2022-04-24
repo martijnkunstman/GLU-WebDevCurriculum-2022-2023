@@ -1,6 +1,7 @@
 let planningData;
 let planningConfig;
 let app = document.getElementById('app');
+let quarterNow = 0;
 
 function init() {
     fetch("planning_data.json").then(data => data.text()).then(text => createPlanningData(text));
@@ -27,7 +28,13 @@ function createPlanningMap() {
         for (let j = start; j < end; j++) {
             let quarter = findQuarterByWeek((j % 52 + 1), schoolYear.quarters, i);
             let holiday = findHolidays((j % 52 + 1), schoolYear.holidays);
-            app.innerHTML += '<div class="scedule-item" style="width:100px;"><div class="scedule-item-week">' + (j % 52 + 1) + '</div>' + quarter + '-'+holiday+'</div>';
+            quarterText = "";
+            if (quarter != quarterNow) {
+                quarterNow++;
+                quarterText = " - <b>P" + quarter + "</b>";
+            }
+
+            app.innerHTML += '<div class="scedule-item" style="width:80px;" data-quarter="' + quarter + '"><div class="scedule-item-week">' + (j % 52 + 1) + quarterText + '</div><div class="scedule-item-holiday">' + holiday + '</div></div>';
         }
     }
 }
@@ -35,10 +42,11 @@ function createPlanningMap() {
 function findHolidays(week, holidays) {
     for (let i = 0; i < holidays.length; i++) {
         for (let j = 0; j < holidays[i].weeks.length; j++) {
-            if (week === holidays[i].weeks[j]) {   ;             
+            if (week === holidays[i].weeks[j]) {
+                ;
                 return planningConfig.holidays.find(x => x.id === holidays[i].id).name;
             }
-        }        
+        }
     }
     return "";
 }

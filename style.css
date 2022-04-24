@@ -33,22 +33,38 @@ html, body{
     font-weight: 600;
 }
 .scedule-item{
-    height: 100px;
-    border: 0px solid black;
+    height: 80px;
+    border: 1px solid rgba(0,0,0,0.1);
     display: inline-block;
     box-sizing:content-box;
     position: relative;
     margin:2px;
     margin-top:30px;
-    border-radius:5px;
+    border-radius:10px;
     background-color: rgba(0,0,0,0.1);
 }
 .scedule-item-week{
     position:absolute;
-    top:-18px;
+    top: -2px;
+    transform: translateY(-100%);
     left:0;
     font-size:11px;
     color: rgba(0,0,0,0.5)
+}
+.scedule-item-holiday{
+    font-size:12px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:10px;
+    right:10px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255,255,255,1);
+
 }
 .scedule-item-title{
     position:absolute;
