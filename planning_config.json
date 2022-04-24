@@ -9,16 +9,16 @@
             [16, 26]
         ],
         "holidays": [{
-            "name": "Herfst&shy;vakantie",
+            "id": 1,
             "weeks": [43]
         }, {
-            "name": "Kerst&shy;vakantie",
+            "id": 2,
             "weeks": [52, 1]
         }, {
-            "name": "Voorjaars&shy;vakantie",
+            "id": 3,
             "weeks": [9]
         }, {
-            "name": "Mei&shy;vakantie",
+            "id": 4,
             "weeks": [18]
         }]
     }, {
@@ -31,16 +31,16 @@
             [16, 27]
         ],
         "holidays": [{
-            "name": "Herfst&shy;vakantie",
+            "id": 1,
             "weeks": [43]
         }, {
-            "name": "Kerst&shy;vakantie",
+            "id": 2,
             "weeks": [52, 1]
         }, {
-            "name": "Voorjaars&shy;vakantie",
+            "id": 3,
             "weeks": [9]
         }, {
-            "name": "Mei&shy;vakantie",
+            "id": 4,
             "weeks": [18, 19]
         }]
     }, {
@@ -49,22 +49,35 @@
         "quarters": [
             [35, 45],
             [46, 5],
-            [6, 16],
+            [6, 18],
             [19, 28]
         ],
         "holidays": [{
-            "name": "Herfst&shy;vakantie",
+            "id": 1,
             "weeks": [44]
         }, {
-            "name": "Kerst&shy;vakantie",
+            "id": 2,
             "weeks": [52, 1]
         }, {
-            "name": "Voorjaars&shy;vakantie",
+            "id": 3,
             "weeks": [9]
         }, {
-            "name": "Mei&shy;vakantie",
+            "id": 4,
             "weeks": [17, 18]
         }]
+    }],
+    "holidays": [{
+        "id": 1,
+        "name": "Herfst&shy;vakantie"
+    }, {
+        "id": 2,
+        "name": "Kerst&shy;vakantie"
+    }, {
+        "id": 3,
+        "name": "Voorjaars&shy;vakantie"
+    }, {
+        "id": 4,
+        "name": "Mei&shy;vakantie"
     }],
     "types": [{
         "id": 1,

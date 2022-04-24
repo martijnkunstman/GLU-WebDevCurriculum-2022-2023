@@ -34,12 +34,21 @@ html, body{
 }
 .scedule-item{
     height: 100px;
-    border: 1px solid black;
+    border: 0px solid black;
     display: inline-block;
     box-sizing:content-box;
-    margin-top: 20px;
     position: relative;
-    margin-left:-1px;
+    margin:2px;
+    margin-top:30px;
+    border-radius:5px;
+    background-color: rgba(0,0,0,0.1);
+}
+.scedule-item-week{
+    position:absolute;
+    top:-18px;
+    left:0;
+    font-size:11px;
+    color: rgba(0,0,0,0.5)
 }
 .scedule-item-title{
     position:absolute;
