@@ -2,6 +2,7 @@ import planning from '../styles/Planning.module.css'
 import { useDrag } from 'react-dnd'
 import { ItemTypes } from './ItemTypes.js'
 function Project(props) {
+    //const containerRef = useRef();
     const [{ isDragging }, drag] = useDrag(() => ({
         type: ItemTypes.BOX,
         item: { name },
@@ -9,6 +10,8 @@ function Project(props) {
           const dropResult = monitor.getDropResult()
           if (item && dropResult) {
             //snap into this one...
+            console.log(dropResult);
+            console.log( monitor.getClientOffset());
           }
         },
         collect: (monitor) => ({
