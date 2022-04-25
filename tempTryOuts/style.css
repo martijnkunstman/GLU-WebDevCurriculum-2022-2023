@@ -112,3 +112,20 @@ html, body{
     font-size: 12px;
 }
 
+.project{
+    position:absolute;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    background-color: red;
+    z-index: 1;
+}
+.project-width-1{
+    width: 70px;
+}
+.project-width-2{
+    width: 156px; /* 70x2 + 16 */
+}
+.project-width-3{
+    width: 242px; /* 70x3 + 32 */
+}

@@ -34,8 +34,18 @@ function createPlanningMap() {
                 quarterText = " - <b>P" + quarter + "</b>";
             }
 
-            app.innerHTML += '<div class="scedule-item" style="width:80px;" data-quarter="' + quarter + '"><div class="scedule-item-week">' + (j % 52 + 1) + quarterText + '</div><div class="scedule-item-holiday">' + holiday + '</div></div>';
+            app.innerHTML += '<div id="syid-'+planningData.schoolYearIds[i]+'|w-'+(j % 52 + 1)+'" class="scedule-item" style="width:80px;" data-week="' + (j % 52 + 1) + '" data-schoolyearId="' + planningData.schoolYearIds[i] + '" data-quarter="' + quarter + '"><div class="scedule-item-week">' + (j % 52 + 1) + quarterText + '</div><div class="scedule-item-holiday">' + holiday + '</div></div>';
         }
+    }
+    createPeriods();
+}
+
+function createPeriods() {
+    for (let i = 0; i < planningData.periods.length; i++) {
+        let startWeek = document.getElementById("syid-" + planningData.periods[i].schoolYearId + "|w-" + planningData.periods[i].period[0]);
+        startWeek.innerHTML += '<div class="project project-width-'+planningData.periods[i].period.length+'">' + planningData.periods[i].note + '-'+planningData.periods[i].period.length+'</div>';
+        //week.innerHTML += '<div class="project">111</div>';
+   
     }
 }
 
