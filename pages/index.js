@@ -3,14 +3,17 @@ import Image from 'next/image'
 import Planning from '../components/Planning'
 import styles from '../styles/Home.module.css'
 import useSWR from 'swr'
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
+
 const fetcher = (...args) => fetch(...args).then((res) => res.json())
 
 
 export default function Home() {
-  const { data, error } = useSWR('/api/planningConfig', fetcher)   
+  const { data, error } = useSWR('/api/planningConfig', fetcher)
   if (error) return <div>Failed to planningConfig</div>
-  if (data){
-      //console.log(data);
+  if (data) {
+    //console.log(data);
   }
   return (
     <div className={styles.container}>
@@ -19,8 +22,10 @@ export default function Home() {
         <meta name="description" content="Curriculum builder in Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>       
-      <Planning config={data}/>        
+      <main className={styles.main}>
+        <DndProvider backend={HTML5Backend}>
+          <Planning config={data}/>
+        </DndProvider>
       </main>
     </div>
   )
